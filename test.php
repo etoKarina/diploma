@@ -10,7 +10,7 @@ $login = $_POST["name"];
 $pw = $_POST["email"];
 
 
-$sql = "SELECT 1 FROM User WHERE login = '" . $login . "' AND password = '" . $pw ."'";
+$sql = "SELECT 1 FROM User WHERE login = '$login' AND password = '$pw'";
 
 $db = new SQlite3 ("test.db");
 $res = $db->query($sql)->fetchArray();

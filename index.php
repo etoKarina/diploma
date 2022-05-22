@@ -6,11 +6,12 @@
 
 
 <form action="test.php" method="post">
-    Login: <input type="text" name="name"><br>
-    Password: <input type="text" name="email"><br>
+    Логин <input type="text" name="name"><br>
+    Пароль <input type="text" name="email"><br>
     <input type="submit">
-</form>
 
+</form>
+<a href="reg.php">Регистрация</a>
 
 </body>
 </html>
