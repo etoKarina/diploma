@@ -39,7 +39,7 @@ class Database
         return false;
     }
 
-    private function executeStatement($query = "" , $params = [])
+    protected function executeStatement($query = "" , $params = [])
     {
         try {
             $stmt = $this->connection->prepare( $query );

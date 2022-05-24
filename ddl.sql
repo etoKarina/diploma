@@ -47,3 +47,17 @@ VALUES
     ('abobus', 'qwerty', 'London', 'Isthe', 'Capital', '1');
 
 
+INSERT INTO Answer
+(id, answer,idPoll)
+VALUES
+    (1,'kto sprashival',1);
+
+INSERT INTO Question
+(id, name,optional,idPoll)
+VALUES
+    (1,'Chto slychilos s podvodnoi lodkoi','ytonyla?',1);
+
+INSERT INTO Result
+(idUser, idAnswer)
+VALUES
+    (1,1);
